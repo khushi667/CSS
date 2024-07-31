@@ -1,0 +1,30 @@
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: gray;
+    padding:15px 0px
+}
+section.about-me , section.about-us{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid gray;
+    padding: 10px;
+    
+}
+
+.about-me{
+    margin-bottom: 20px;
+}
+section h2{
+    text-transform: uppercase;
+    color: #444;
+}
+
+
+
+/* margin collapsing */
+/* if we decalre two boxes and give 1st box margine-bottom 60px and give 2nd box margine-top 70px in this case total margine is not 130px it is 70 px,the reason is which margine pixel number is biggest is counted */

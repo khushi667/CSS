@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.fav-musicians{
+    border: 10px solid green;
+}
+.mozart{
+    width: 25%;
+    background-color: lightblue;
+    float: left;
+    padding: 20px;
+}
+.beethover{
+    width: 25%;
+    background-color: lightpink;
+    float: left;
+    padding: 20px;
+}
+.bach{
+    width: 25%;
+    background-color: lightgreen;
+    float: left;
+    padding: 20px;
+}
+.paganini{
+    width: 25%;
+    background-color: lightskyblue;
+    float: left;
+    padding: 20px;
+}
+.fav-musicians::after{
+    content: "";
+    display: block;
+    clear: both;
+}

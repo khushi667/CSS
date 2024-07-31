@@ -1,0 +1,68 @@
+/* p:nth-child(2n){        
+    color: green;
+} */
+
+/* nth of type */
+/* p:nth-of-type(2n){
+    color: red;
+} */
+
+
+/* body :not(p){
+    color: blue;
+} */
+/* body :not(.fancy){
+    color: red;
+    background-color: antiquewhite;
+} */
+
+
+/* div:empty{
+    background-color: #222;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+
+}
+
+/* we use root for make css variable */
+/* :root{
+    background-color: #333;
+    color: #eee;
+}  */
+
+/* double colom is udes for element  */
+/* p::first-letter{
+    font-size: 32px;
+}
+p::selection{
+    background-color: black;
+    color: white;
+} */
+
+/* 
+if we want to add some content hen we can use before-pseudo element and after-pseudo element  */
+.cool::before{
+    display: block;
+    content: 'hello ';
+    color: green;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.cool::after{
+    display: block;
+    content: 'hello ';
+    color: green;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.main-heading::before{
+    content: 'hello ';
+    color: red;
+
+}
+
+
+/* img,be,input,video--->we can not use thses tag (replaced element) for before and after element  */

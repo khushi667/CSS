@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper{
+    border: 10px solid #222;
+    display: flex; 
+    max-width: 1200px;
+
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+
+    /* height: 400px;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.box{
+    border: 1px solid #666; 
+    flex: 1  500px; 
+    flex-wrap: wrap;
+
+    /* flex-basis: 600px; */
+    /* flex-grow: 2; */
+
+    /* width: 500px; */
+    /* flex-basis: 500px; */
+    /* height: 400px; */
+ }
+.box-1{
+    background: lightblue;
+    /* flex: 1 2 500px; */
+
+    /* flex-shrink: 1; */
+
+    /* flex-grow: 2; */
+
+    /* order: 2; */
+    /* align-self: flex-start; */
+}
+.box-2{
+    background: lightcoral;
+
+    /* in flex you can put flex-grow value , flex-shrink value and flex-bases value  */
+    /* flex: 1 2 400px; */
+
+    /* flex-shrink: 2; */
+    /* flex-grow: 1; */
+
+    /* order: 1; */
+    /* align-self: center; */
+}
+.box-3{
+    background: lightgray;
+    /* flex: 1 2 600px; */
+
+    /* flex-shrink: 3; */
+    /* flex-grow: 1; */
+
+    /* order: 0; */
+    /* align-self: flex-end; */
+}
+.box-4{
+    background: lightsalmon;
+}
+.box-5{
+    background: lightslategray;
+}

@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+h1,h2{
+    border: 2px solid #222;
+    width: 500px;
+    height: 100px;
+    
+}
+
+h1{
+    margin: 100px;
+    padding: 100px;
+}
+/* a{
+    border: 2px solid #222;
+    padding: 0 50px;
+} */
+
+
+
+/* block level element */
+/* 1-block level element always start with new line
+2-take full width
+3-we can give marginein all side
+4-you can give padding too in all way
+you can convert block element to inline element using -> display:inline; */
+
+
+/* inline element */
+/* 1-inline elements are in one line and do not take 2-extra width 
+3-if you give inline element width and height they reamins the same
+4-only left and right margine
+5-can add padding but overflow in top and bottom aise you can give padding in left and right side
+6-you can convert inline to block element using display:block; */
+
+
+/* important */
+/* to resolve the problem of inline block element we can use display:inline-block element */
+a{
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 150px;
+    height: 100px;
+}

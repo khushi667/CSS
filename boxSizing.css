@@ -1,0 +1,30 @@
+.box2{
+    box-sizing: border-box;
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+    margin: 10px;
+}
+
+
+.box1{
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+}
+
+
+
+
+/* important note  */
+/* browser gives default value for margin,padding etc....to reset the those value we can use like this---> */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* in this way we can reset default value and build own  */

@@ -1,0 +1,30 @@
+body{
+    color: red;
+}
+
+.container1{
+    color: green;
+}
+
+.container1{
+    color: blue;
+}
+/* h1{
+    color: orange;
+} */
+a{
+    color: brown;
+    text-decoration: none;
+}
+
+
+/* important */
+/* css more text related properties */
+/* p{
+    font-size: 46px;
+    text-decoration: underline wavy red;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+} */
